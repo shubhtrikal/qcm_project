@@ -1,0 +1,128 @@
+body
+{
+    margin: 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.page
+{
+    display: flex;
+}
+.pageleft
+{
+    display: flex;
+    width: 30%;
+}
+.pagecont
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+     width: 80%; 
+    /* align-items: center; */
+
+}
+.pagecont h1
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+/* form */
+#contactbox
+
+{width: 100%;
+    
+}
+#contactbox input
+{
+    height: 30px;
+    padding: 13px 10px;
+    width: 93%;
+    font-size: 20px;
+    border: 2px solid cornflowerblue;
+    box-shadow: 0px 0px 30px rgb(144, 141, 141);
+    border-radius: 4px;
+}
+#contactbox button
+{
+    width: 100%;
+    height: 50px;
+    padding: 13px 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
+.line
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.googlesignup
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border:2px solid black; */
+    box-shadow: 0px 0px 20px black ;
+    padding: 10px 8px;
+    border-radius: 3px ;
+    
+}
+.googlesignup h3
+{
+    margin: 0px 0px;
+    margin-left: 13px;
+}
+.googlesignup img
+{
+    height: 20px;
+}
+.lastline
+{
+
+    text-align: center;
+}
+.lastline a
+{
+    color: darkred;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.pageright
+{
+    width: 70%;
+    height: 100%;
+}
+.pageright img
+{
+     height: 770px;
+     width: 100%;
+} 
+
+@media(max-width:600px)
+{
+    .pageright
+{
+    width: 0%;
+    height: 100%;
+}
+.pageright img
+{
+     height: 770px;
+     width: 100%;
+} 
+.pageleft
+{
+    display: flex;
+    width: 99%;
+    background: url("./background1.jpg");
+    opacity: 0.3                                                                                                                              ;
+}
+}
